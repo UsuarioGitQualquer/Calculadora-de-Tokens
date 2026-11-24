@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Calculadora de Tokens",
+  "version": "1.6.7",
+  "description": "Calcula tokens e valores estimados em dólares por modelo, tipo, dia, mês, maior crédito e gastos.",
+  "permissions": [
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.stripchat.com/*"
+  ],
+  "action": {
+    "default_title": "Calculadora de Tokens",
+    "default_popup": "popup.html"
+  }
+}
